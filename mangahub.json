@@ -1,0 +1,42 @@
+{
+  "bookSourceComment": "#英翻漫画，可用各种语言搜索",
+  "bookSourceGroup": "漫画",
+  "bookSourceName": "MangaHub",
+  "bookSourceType": 2,
+  "bookSourceUrl": "https://mangahub.io",
+  "bookUrlPattern": "",
+  "customOrder": 0,
+  "enabled": true,
+  "enabledCookieJar": false,
+  "enabledExplore": false,
+  "exploreUrl": "",
+  "header": "{\"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36\"}",
+  "lastUpdateTime": 0,
+  "loginUrl": "",
+  "ruleBookInfo": {
+    "author": "div:contains(Author) span::text",
+    "coverUrl": "._4RcEi img::attr(src)",
+    "intro": "",
+    "kind": "._3Czbn a::text",
+    "lastChapter": "div:contains(Latest) a::text",
+    "name": "._3xnDj::text"
+  },
+  "ruleContent": {
+    "content": "#mangareader img.PB0mN::attr(src)"
+  },
+  "ruleExplore": {},
+  "ruleSearch": {
+    "author": ".media-body small::text",
+    "bookList": ".media-manga.media",
+    "bookUrl": ".media-left a::attr(href)",
+    "coverUrl": ".manga-thumb::attr(src)",
+    "name": ".media-heading a::text"
+  },
+  "ruleToc": {
+    "chapterList": ".MWqeC .list-group-item",
+    "chapterName": "._3pfyN span:last-child::text",
+    "chapterUrl": "._3pfyN::attr(href)"
+  },
+  "searchUrl": "/search?q={{key}}",
+  "weight": 0
+}mangahub
