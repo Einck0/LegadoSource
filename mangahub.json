@@ -1,4 +1,4 @@
-{
+[
   {
     "bookSourceComment": "#英翻漫画，可用各种语言搜索",
     "bookSourceGroup": "漫画",
@@ -41,4 +41,4 @@
     "searchUrl": "/search?q={{key}}",
     "weight": 0
   }
-}
+]
